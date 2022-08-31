@@ -49,8 +49,9 @@ const Menu =() =>{
 const Navbar = () => {
   const [toggleMenu,setToggleMenu]=useState(false);
  
+ 
   const togglefun2 =() =>{
-    setToggleSubMenu(false)
+    setToggleMenu(!toggleMenu)
    }
   
   return (
