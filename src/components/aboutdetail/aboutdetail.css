@@ -1,0 +1,118 @@
+
+.aboutdetail {
+    padding: 5rem 0;
+    margin-top: 5rem;
+}
+.aboutdetail li{list-style: none;padding: 0.3rem 0;color: gray;font-size: 1.1rem; }
+
+/* upper --------------------------
+--------------------------------------------
+ /* */ 
+
+.aboutdetail-upper {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 0 5rem;
+
+}
+.aboutdetail-upper img {
+    height: 20rem;
+    width: 32rem;
+}
+.aboutdetail-upper__left {
+    padding-right: 2.5rem;
+    /* flex: 1; */
+    /* width: 20rem; */
+}
+.aboutdetail-upper__left h1{
+    /* font-weight: 500; */
+    padding-bottom: 2rem;
+}
+.aboutdetail-upper__left p {
+    color: gray;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+    min-width: 20rem;
+    max-width: 35rem;
+    /* text-align: center; */
+}
+
+/* lower ---------------------------
+-----------------------------------------
+----------------------- */
+
+.aboutdetail-lower {
+    display: flex;
+    gap: 1rem;
+    background: #f9f9f9;
+    padding: 4rem 5rem;
+    margin: 4rem 0 2rem 0;
+}
+
+.aboutdetail-lower p{
+    color: gray;
+    line-height: 1.5;
+    margin: 1rem 0;
+    min-width: 20rem;
+    max-width: 35rem;
+}
+.aboutdetail-lower img{
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.aboutdetail-lower h1 {
+    font-weight: 500;
+}
+.aboutdetail-lower__left {
+    flex: 1;
+}
+.aboutdetail-lower__right {
+    flex: 1;
+}
+
+/* media queries -------------------------------------- */
+
+/* max width 1200px  */
+@media(max-width:1200px){
+    .aboutdetail-upper {
+       flex-direction: column;
+        padding: 0 3rem;
+    
+    }   
+    .aboutdetail-lower {
+        flex-direction: column;
+      
+    }
+}
+
+/* 600 px ---------- */
+
+@media(max-width:600px){
+    .aboutdetail-upper img {
+        height: 20rem;
+        width: 90%;
+    }   
+    .aboutdetail-lower img{
+        width: 90%;
+        height: 20rem;
+      
+    }
+    .aboutdetail-upper {
+        display: flex;
+        /* flex-wrap: wrap; */
+        padding: 0 1rem;
+    
+    }
+    .aboutdetail-lower {
+     
+        padding: 4rem 1rem;
+        margin: 2rem 0 2rem 0;
+    }
+    .aboutdetail {
+        padding: 1rem 0;
+        margin-top: 5rem;
+    }
+    
+}

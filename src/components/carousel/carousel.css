@@ -1,0 +1,88 @@
+
+.carousel-div {
+    height: 100vh !important;
+    /* max-height: 100vh !important; */
+}
+
+.carousel-div__sub {
+height: 100% !important;
+/* display: flex; */
+width: 100%;
+
+}
+
+.carousel-div__sub1{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1620332372374-f108c53d2e03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsc3xlbnwwfDB8MHx8&auto=format&fit=crop&w=1500&q=60");
+}
+.carousel-div__sub2{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVhbCUyMGVzdGF0ZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=1500&q=60");
+}
+.carousel-div__sub3{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1589923188651-268a9765e432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG91bHRyeSUyMGZhcm18ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=1500&q=60");
+
+}
+.carousel__img {
+height: 100vh !important;
+width: 100% !important;
+object-fit: cover;
+color: rgba(0, 0, 0, 0.624);
+}
+
+.carousel__caption {
+  
+    height: inherit;
+    display: flex;
+    /* width: 100%; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel__caption h1 {
+    padding: 1rem 0;
+    font-size: 2.4rem;
+}
+.carousel__caption p{
+    max-width: 35rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.carousel__caption button {
+    background: #28ABE3;
+    border: 1px solid #28ABE3;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+/* media queries ------------------------------ */
+@media(max-width:600px) {
+    .carousel__caption {
+  
+        flex-direction: column;
+        /* justify-content:fl; */
+       
+    }
+    .carousel__caption button {
+       
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 8px 15px;
+        text-transform: uppercase;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+}
