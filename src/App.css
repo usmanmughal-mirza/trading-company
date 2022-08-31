@@ -6,19 +6,19 @@
 }
 
 h1{
-  font-size: 2rem !important;
+  font-size: 2rem ;
 }
 h2{
-  font-size: 1.4rem !important;
+  font-size: 1.4rem ;
 }
 h3 {
-  font-size: 1.3rem !important;
+  font-size: 1.3rem ;
 }
 p {
-  font-size: 1rem !important;
+  font-size: 1rem ;
 }
 ul{
-  padding: 0 !important;
+  padding: 0 ;
 }
 li{
  font-size: 0.9rem !important;
