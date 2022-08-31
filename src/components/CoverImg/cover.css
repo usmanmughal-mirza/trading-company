@@ -66,6 +66,7 @@
 @media(max-width:600px){
     .coverimg__content p{
         padding: 0.5rem 3rem 0rem; 
+        text-align: center;
         
     }
     .coverimg__content h1 {
